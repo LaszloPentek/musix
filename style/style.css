@@ -98,18 +98,44 @@ img{
     width: auto;
     padding: 0 0 25px 0;
 }
+/* Esemény   */
 .event{
-    outline: 3px solid black;
+    border-bottom: 2px solid darkgray;
+
+    font-size: 1.5rem;
+
 }
 .banda{
     margin: 10px;
+    font-size: 3rem;
 }
 .idopont{
     outline: 3px solid black;
+    color: #259998;
+    font-weight: 600;
+    padding: 10px;
+    
 }
 .helyszin{
-    outline: 3px solid black;
+    
 }
+.jegy-btn{
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+}
+.esemny-btn{
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+
+
+/*  */
 @media (min-width: 576px){
     section{
         width: 100%;
