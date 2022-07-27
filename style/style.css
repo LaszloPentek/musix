@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+section{
+    display: inline-block;
+    width: calc(33% - 23px);
+    height: auto;
+    box-sizing: border-box;
+    margin: 10px;
+    align-items: flex-end;
+    outline: 3px solid rgba(24, 23, 23, 0.459);
+}
+section p{
+    margin: 25px;
+    justify-content: center;
+    
+}
+img{
+    width: 100%;
+}
+.bekezdes h2{
+    display: flex;
+    justify-content: center;
+}
+.banda-logo{
+    display: flex;
+    justify-content: center;
+}
+.banda-logo img{
+    height: 40px;
+    width: auto;
+    padding: 0 0 25px 0;
+}
+.event{
+    outline: 3px solid black;
+}
+.banda{
+    margin: 10px;
+}
+.idopont{
+    outline: 3px solid black;
+}
+.helyszin{
+    outline: 3px solid black;
+}
+@media (min-width: 576px){
+    section{
+        width: 100%;
+    } 
+}
+@media (min-width: 768px){
+    section{
+        width: calc(50% - 20px);
+    }
+}
+@media (min-width: 992px){
+    section{
+        width: calc(33% - 23px );
+    }
+}
+@media (min-width: 1200px){
+    section{
+        width: calc(25% - 20px);
+    }
+}
+@media (min-width: 2000px) { 
+    section{
+        width: calc(20% - 30px);
+    }
+}
