@@ -118,15 +118,29 @@ img{
     justify-content: space-evenly; */
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    border-bottom: 2px solid darkgray;
-
+    /* grid-template-columns: repeat(2, auto); */
+    /* grid-template-areas: 
+        "A B D E"
+        "A C D F"; */
+    margin-top: 2rem;
     font-size: 1.5rem;
+    text-align: center;
 
+}
+.event:hover{
+    background-color: whitesmoke;
 }
 .banda{
     margin: 10px;
     font-size: 2.3rem;
     width: 30;
+    grid-area: "A";
+}
+.varos{
+    grid-area: "B";
+}
+.helyszin{
+    grid-area: "C";   
 }
 .idopont{
     text-align: center;
@@ -136,23 +150,25 @@ img{
     padding: 10px;
     width: 60px;
     height: 60px;
-    
+    grid-area: "D";
 }
-.helyszin{
-    
-}
+
 .jegy-btn{
     background-color: aquamarine;
     width: 100px;
     height: 50px;
+    grid-area: "E";
 }
 .esemny-btn{
     background-color: aquamarine;
     width: 100px;
     height: 50px;
+    grid-area: "F";
 }
 
-
+#data-output{
+    
+}
 
 
 

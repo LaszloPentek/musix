@@ -9,10 +9,15 @@ fetch("products.json")
       out += `
         <article class="event">
             <h3 class="banda">${product.banda}</h3>
+            <div>
+            <p class="varos">${product.város}</p>
             <p class="helyszin">${product.helyszin}</p>
+            </div>
             <p class="idopont">${product.dátum}</p>
+            <div>
             <button class="jegy-btn">jegy</button>
             <button class="esemny-btn">esemény</button>
+            </div>
         </article class="event"> 
       `;
    }

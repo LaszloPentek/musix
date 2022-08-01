@@ -1,27 +1,32 @@
 [
     {
         "banda":"Gege",
-        "helyszin":"Budapest A38 Hajó",
+        "város": "Budapest",
+        "helyszin":"A38 Hajó",
         "dátum" : "2022 AUG 4"
     },
     {
         "banda":"Krubi",
-        "helyszin":"Budapest bp park",
+        "város": "Budapest",
+        "helyszin":"bp park",
         "dátum" : "2022 AUG 5"
     },
     {
         "banda":"Mirror Glimpse",
-        "helyszin":"Budapest bp park",
+        "város": "Budapest",
+        "helyszin":"bp park",
         "dátum" : "2022 SZEP 2"
     },
     {
         "banda":"Amon Amarth",
-        "helyszin":"Budapest Barba Negra",
+        "város": "Budapest",
+        "helyszin":"Barba Negra",
         "dátum" : "2022 OKT 18"
     },
     {
         "banda":"Jinjer",
-        "helyszin":"Budapest Barba Negra",
+        "város": "Budapest",
+        "helyszin":"Barba Negra",
         "dátum" : "2023 Feb 10"
     }
     
