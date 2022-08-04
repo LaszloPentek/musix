@@ -15,8 +15,8 @@ fetch("products.json")
             </div>
             <p class="idopont">${product.dátum}</p>
             <div>
-            <button class="jegy-btn">jegy</button>
-            <button class="esemny-btn">esemény</button>
+            <button class="jegy-btn"><a href="${product.jegy}"  target="_blank">jegy</a></button>
+            <button class="esemny-btn"><a href="${product.esemény}"  target="_blank">esemény</a></button>
             </div>
         </article class="event"> 
       `;

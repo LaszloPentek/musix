@@ -3,7 +3,9 @@
         "banda":"Gege",
         "város": "Budapest",
         "helyszin":"A38 Hajó",
-        "dátum" : "2022 AUG 4"
+        "dátum" : "2022 AUG 4",
+        "jegy" : "https://www.a38.hu/hu/program/gege-hu?fbclid=IwAR0iKtXMTl7oox6zCUaYETxxOkomgpCSmKnaCMdcrtzncAfBASamurl7j9c",
+        "esemény": "https://www.facebook.com/events/343996561193140/?ref=newsfeed"
     },
     {
         "banda":"Krubi",
