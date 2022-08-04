@@ -24,3 +24,15 @@ fetch("products.json")
  
    placeholder.innerHTML = out;
 });
+`
+<div class="bekezdes">
+   <div class="dimmu">
+      Dimmu Borgir
+   </div>
+   <div class="icons">
+      <a href="facebook.com"><i class="fa-brands fa-square-facebook "></i></a>
+      <a href="instagram.com"><i class="fa-brands fa-square-instagram instagram"></i></a>
+      <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
+   </div>
+</div>
+`
