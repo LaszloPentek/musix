@@ -5,5 +5,19 @@
         "facebook": "https://www.facebook.com/dimmuborgir",
         "instagram": "https://www.instagram.com/dimmuborgir/",
         "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/Krubi.jpg",
+        "felépő" : "Krubi",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/Jinjer.jpg",
+        "felépő" : "Jinje",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
     }
 ]
