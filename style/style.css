@@ -83,13 +83,18 @@ article {
     
     
 }
+.card-img{
+    filter: brightness(70%);
+}
 .card-cim{
 
     display: flex;
     color: white;
     font-size: 2rem;
-    position: absolute;
-    top: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+    font-weight: 900;
  
 }
 
@@ -110,6 +115,10 @@ section p{
 }
 img{
     width: 100%;
+}
+section{
+    width: 350px;
+    height: auto;
 }
 .bekezdes h2{
     display: flex;
@@ -143,14 +152,8 @@ img{
 }
 /* Esemény   */
 .event{
-    /* display: flex;
-    justify-content: space-evenly; */
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    /* grid-template-columns: repeat(2, auto); */
-    /* grid-template-areas: 
-        "A B D E"
-        "A C D F"; */
     margin-top: 2rem;
     font-size: 1.5rem;
     text-align: center;
@@ -201,14 +204,14 @@ img{
 
 
 /*  */
-@media (min-width: 576px){
+ @media (min-width: 576px){
     section{
-        width: 100%;
+        width: calc(100% -10px);
     } 
 }
 @media (min-width: 768px){
     section{
-        width: calc(50% - 20px);
+        width: 350px;
     }
 }
 @media (min-width: 992px){
@@ -225,4 +228,5 @@ img{
     section{
         width: calc(20% - 30px);
     }
+
 }

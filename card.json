@@ -19,5 +19,41 @@
         "facebook": "https://www.facebook.com/dimmuborgir",
         "instagram": "https://www.instagram.com/dimmuborgir/",
         "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/Amon-Amarth.jpg",
+        "felépő" : "Amon Amarth",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/eluveitie.jpg",
+        "felépő" : "Eluvitie",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/DÉnash.jpg",
+        "felépő" : "DÉ:NASH",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/Behemoth.jpg",
+        "felépő" : "Behemoth",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
+    },
+    {
+        "kép" : "./img/In this moment.jpg",
+        "felépő" : "In this moment",
+        "facebook": "https://www.facebook.com/dimmuborgir",
+        "instagram": "https://www.instagram.com/dimmuborgir/",
+        "youtube": "https://www.youtube.com/c/dimmuborgir"
     }
+
 ]
